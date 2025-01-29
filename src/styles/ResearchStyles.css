@@ -1,0 +1,49 @@
+.research h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .research-panel {
+    background-color: #1e1e2f; /* Panel oscuro */
+    border: 1px solid #2a2a3f;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  
+  .btn-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Botón de tab seleccionado */
+  .btn.selected {
+    background-color: #34d399; /* Verde más claro */
+  }
+  
+  .research-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .research-form label {
+    align-self: center;
+    color: #f1f1f1;
+  }
+  
+  .research-form input,
+  .research-form select {
+    background-color: #2b2b40;
+    border: 1px solid #2a2a3f;
+    color: #f1f1f1;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .research-results {
+    margin-top: 1rem;
+    border-top: 1px solid #2a2a3f;
+    padding-top: 1rem;
+  }
+  

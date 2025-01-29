@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* HTML y Body */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212; /* Fondo oscuro */
+  color: #f1f1f1;           /* Texto claro */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: #10b981;
+}
+
+a:hover {
+  color: #34d399;
+}
+
+/* Clases de ayuda para layout */
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Botón genérico */
+.btn {
+  background-color: #10b981; /* Verde principal */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #34d399; /* Verde más claro */
+}

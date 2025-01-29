@@ -1,0 +1,11 @@
+.home h1 {
+    margin-bottom: 1rem;
+    color: #f1f1f1; /* Texto claro */
+  }
+  
+  .inf-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  

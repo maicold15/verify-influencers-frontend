@@ -1,0 +1,27 @@
+.inf-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .inf-header {
+    background-color: #1e1e2f;  /* Fondo de la sección superior */
+    border: 1px solid #2a2a3f;
+    border-radius: 6px;
+    padding: 1rem;
+  }
+  
+  .inf-info p {
+    margin: 0.3rem 0;
+    color: #f1f1f1;
+  }
+  
+  .claims-section {
+    margin-top: 1rem;
+  }
+  
+  .claims-list {
+    display: flex;
+    flex-direction: column;
+  }
+  

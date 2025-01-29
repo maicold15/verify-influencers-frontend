@@ -1,0 +1,15 @@
+:root {
+    --color-bg: #121212;         /* Fondo general */
+    --color-card: #1e1e2f;       /* Tarjetas / paneles */
+    --color-border: #2a2a3f;     /* Bordes oscuros */
+    --color-text: #f1f1f1;       /* Texto principal */
+    --color-text-muted: #a1a1b5; /* Texto secundario */
+    --color-primary: #10b981;    /* Verde acento (Tailwind green-500) */
+    --color-primary-light: #34d399;
+    --color-danger: #ef4444;     /* Ejemplo para notificaciones de error */
+  
+    /* Tipografía */
+    --font-family: 'Inter', sans-serif;
+    --font-size-base: 16px;
+  }
+  

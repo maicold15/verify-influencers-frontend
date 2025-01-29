@@ -1,0 +1,25 @@
+    .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1e2f;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #2a2a3f;
+  }
+  
+  .app-title {
+    color:#10b981;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .navbar-right a {
+    margin-left: 1.5rem;
+    color: #f1f1f1;
+    font-weight: 500;
+  }
+  
+  .navbar-right a:hover {
+    color: #34d399;
+  }
+  
