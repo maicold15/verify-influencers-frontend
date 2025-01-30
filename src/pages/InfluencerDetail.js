@@ -27,7 +27,13 @@ function InfluencerDetail() {
         </div>
       </div>
 
-      <div className="claims-section">
+      {/* NUEVA SECCIÓN: MOSTRAR EL SUMMARY DE WIKIPEDIA */}
+      <div className="summary-section" style={{ marginTop: '1rem' }}>
+        <h2>Wikipedia Summary</h2>
+        <p>{influencer.summary || '(No summary found)'}</p>
+      </div>
+
+      <div className="claims-section" style={{ marginTop: '2rem' }}>
         <h2>Claims Analysis</h2>
         <div className="claims-list">
           {influencer.claims?.map((claim, index) => (
